@@ -20,15 +20,15 @@ namespace Codility.L2CountingElements
         }
     }
     /// <summary>
-    /// A non-empty zero-indexed array A consisting of N integers is given.
-    /// A permutation is a sequence containing each element from 1 to N
-    /// once, and only once.
+    /// <para>A non-empty zero-indexed array A consisting of N integers is given.</para>
+    /// <para>A permutation is a sequence containing each element from 1 to N</para>
+    /// <para>once, and only once.</para>
     /// </summary>
     class SolutionPermChceck
     {
         /// <summary>
-        /// Given a zero-indexed array A, returns 1 if array A is a
-        /// permutation and 0 if it is not.
+        /// <para>Given a zero-indexed array A, returns 1 if array A is a</para>
+        /// <para>permutation and 0 if it is not.</para>
         /// </summary>
         /// <param name="A">Zero-indexed array of integers.</param>
         /// <returns>1 if array A is apermutation and

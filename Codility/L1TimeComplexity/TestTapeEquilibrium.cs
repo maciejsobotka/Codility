@@ -25,21 +25,21 @@ namespace Codility.L1TimeComplexity
         }
     }
     /// <summary>
-    /// A non-empty zero-indexed array A consisting of N integers is given.
-    /// Array A represents numbers on a tape.
-    /// Any integer P, such that 0 &lt; P &lt; N, splits this tape into two
-    /// non-empty parts: A[0], A[1], ..., A[P − 1] and A[P], A[P + 1]
-    /// , ..., A[N − 1].
-    /// The difference between the two parts is the value of:
-    /// |(A[0] + A[1] + ... + A[P − 1]) − (A[P] + A[P + 1] + ... + A[N − 1])|
-    /// In other words, it is the absolute difference between the sum of the
-    /// first part and the sum of the second part.
+    /// <para>A non-empty zero-indexed array A consisting of N integers is given.</para>
+    /// <para>Array A represents numbers on a tape.</para>
+    /// <para>Any integer P, such that 0 &lt; P &lt; N, splits this tape into two</para>
+    /// <para>non-empty parts: A[0], A[1], ..., A[P − 1] and A[P], A[P + 1]</para>
+    /// <para>, ..., A[N − 1].</para>
+    /// <para>The difference between the two parts is the value of:</para>
+    /// <para>|(A[0] + A[1] + ... + A[P − 1]) − (A[P] + A[P + 1] + ... + A[N − 1])|</para>
+    /// <para>In other words, it is the absolute difference between the sum of the</para>
+    /// <para>first part and the sum of the second part.</para>
     /// </summary>
     class SolutionTapeEquilibrium
     {
         /// <summary>
-        /// Given a non-empty zero-indexed array A of N integers,
-        /// returns the minimal difference that can be achieved.
+        /// <para>Given a non-empty zero-indexed array A of N integers,</para>
+        /// <para>returns the minimal difference that can be achieved.</para>
         /// </summary>
         /// <param name="A">A non-empty zero-indexed array A consisting of N integers</param>
         /// <returns>minimal difference</returns>

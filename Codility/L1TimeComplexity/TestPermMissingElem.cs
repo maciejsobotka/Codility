@@ -17,16 +17,16 @@ namespace Codility.L1TimeComplexity
     }
 
     /// <summary>
-    /// A zero-indexed array A consisting of N different integers is given.
-    /// The array contains integers in the range [1..(N + 1)], which means that
-    /// exactly one element is missing.
-    /// Your goal is to find that missing element.
+    /// <para>A zero-indexed array A consisting of N different integers is given.</para>
+    /// <para>The array contains integers in the range [1..(N + 1)], which means that</para>
+    /// <para>exactly one element is missing.</para>
+    /// <para>Your goal is to find that missing element.</para>
     /// </summary>
     class SolutionPermMissingElem
     {
         /// <summary>
-        /// Given a zero-indexed array A, returns the value of the missing
-        /// element.
+        /// <para>Given a zero-indexed array A, returns the value of the missing</para>
+        /// <para>element.</para>
         /// </summary>
         /// <param name="A">arrray of elements.</param>
         /// <returns>value of missing element.</returns>

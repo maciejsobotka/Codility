@@ -17,24 +17,24 @@ namespace Codility.L2CountingElements
     }
 
     /// <summary>
-    /// A small frog wants to get to the other side of a river.
-    /// The frog is currently located at position 0, and wants to get
-    /// to position X. Leaves fall from a tree onto the surface of the river.
-    /// You are given a non-empty zero-indexed array A consisting of N integers
-    /// representing the falling leaves. A[K] represents the position where
-    /// one leaf falls at time K, measured in minutes.
-    /// The goal is to find the earliest time when the frog can jump to
-    /// the other side of the river. The frog can cross only when leaves
-    /// appear at every position across the river from 1 to X.
+    /// <para>A small frog wants to get to the other side of a river.</para>
+    /// <para>The frog is currently located at position 0, and wants to get</para>
+    /// <para>to position X. Leaves fall from a tree onto the surface of the river.</para>
+    /// <para>You are given a non-empty zero-indexed array A consisting of N integers</para>
+    /// <para>representing the falling leaves. A[K] represents the position where</para>
+    /// <para>one leaf falls at time K, measured in minutes.</para>
+    /// <para>The goal is to find the earliest time when the frog can jump to</para>
+    /// <para>the other side of the river. The frog can cross only when leaves</para>
+    /// <para>appear at every position across the river from 1 to X.</para>
     /// </summary>
     class SolutionFrogRiverOne
     {
         /// <summary>
-        /// Given a non-empty zero-indexed array A consisting of N integers
-        /// and integer X, returns the earliest time when the frog can jump
-        /// to the other side of the river.
-        /// If the frog is never able to jump to the other side of the river,
-        /// the function should return −1.
+        /// <para>Given a non-empty zero-indexed array A consisting of N integers</para>
+        /// <para>and integer X, returns the earliest time when the frog can jump</para>
+        /// <para>to the other side of the river.</para>
+        /// <para>If the frog is never able to jump to the other side of the river,</para>
+        /// <para>the function should return −1.</para>
         /// </summary>
         /// <param name="X">Frog's desired position.</param>
         /// <param name="A">Zero-indexed array representing falling leaves.</param>

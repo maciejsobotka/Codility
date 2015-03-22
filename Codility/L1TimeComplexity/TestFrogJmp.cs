@@ -17,18 +17,18 @@ namespace Codility.L1TimeComplexity
     }
 
     /// <summary>
-    /// A small frog wants to get to the other side of the road.
-    /// The frog is currently located at position X and wants to get
-    /// to a position greater than or equal to Y.
-    /// The small frog always jumps a fixed distance, D.
-    /// Count the minimal number of jumps that the small frog must
-    /// perform to reach its target.
+    /// <para>A small frog wants to get to the other side of the road.</para>
+    /// <para>The frog is currently located at position X and wants to get</para>
+    /// <para>to a position greater than or equal to Y.</para>
+    /// <para>The small frog always jumps a fixed distance, D.</para>
+    /// <para>Count the minimal number of jumps that the small frog must</para>
+    /// <para>perform to reach its target.</para>
     /// </summary>
     class SolutionFrogJmp
     {
         /// <summary>
-        /// Given three integers X, Y and D, returns the minimal number
-        /// of jumps from position X to a position equal to or greater than Y.
+        /// <para>Given three integers X, Y and D, returns the minimal number</para>
+        /// <para>of jumps from position X to a position equal to or greater than Y.</para>
         /// </summary>
         /// <param name="X">Frog's position.</param>
         /// <param name="Y">Frog's desired position.</param>
