@@ -31,8 +31,8 @@ namespace Codility.L1TimeComplexity
         /// of jumps from position X to a position equal to or greater than Y.
         /// </summary>
         /// <param name="X">Frog's position.</param>
-        /// <param name="Y">Frog's desired position</param>
-        /// <param name="D">Frog's jump distance</param>
+        /// <param name="Y">Frog's desired position.</param>
+        /// <param name="D">Frog's jump distance.</param>
         /// <returns></returns>
         public int solution(int X, int Y, int D)
         {
