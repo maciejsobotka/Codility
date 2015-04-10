@@ -50,6 +50,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="L10EuclideanAlgorithm\TestChocolatesByNumbers.cs" />
     <Compile Include="L1TimeComplexity\TestFrogJmp.cs" />
     <Compile Include="L2CountingElements\TestPermCheck.cs" />
     <Compile Include="L2CountingElements\TestFrogRiverOne.cs" />
@@ -73,7 +74,6 @@
     <Compile Include="L1TimeComplexity\TestTapeEquilibrium.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="L10EuclideanAlgorithm\" />
     <Folder Include="L11FibonacciNumbers\" />
     <Folder Include="L12BinarySearchAlgorithm\" />
     <Folder Include="L13CaterpillarMethod\" />

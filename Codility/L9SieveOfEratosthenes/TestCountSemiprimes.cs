@@ -32,7 +32,7 @@ namespace Codility.L9SieveOfEratosthenes
         public int[] solution(int N, int[] P, int[] Q)
         {
             int[] A = new int[P.Length];
-            bool[] semiPrimes = this.semiPrimes(N);
+            bool[] semiPrimes = SemiPrimes(N);
 
             int[] semiPrimesCount = new int[N + 1];
             int n = 0;
@@ -56,7 +56,7 @@ namespace Codility.L9SieveOfEratosthenes
         /// </summary>
         /// <param name="N">Range.</param>
         /// <returns>Semiprime numbers</returns>
-        public bool[] semiPrimes(int N)
+        public bool[] SemiPrimes(int N)
         {
             bool[] sieve = new bool[N + 1];
             for (int i = 2; i <= N; ++i)    sieve[i] = true;
