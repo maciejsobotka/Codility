@@ -11,7 +11,7 @@ namespace Codility.L6Leader
         {
             SolutionDominator s = new SolutionDominator();
             int[] A = { 3, 4, 3, 2, 3, -1, 3, 3 };
-            var result = s.solution(A); ;
+            var result = s.solution(A);
             Assert.AreEqual(6, result);
         }
     }

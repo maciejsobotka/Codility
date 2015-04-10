@@ -11,7 +11,7 @@ namespace Codility.L4Sorting
         {
             SolutionTriangle s = new SolutionTriangle();
             int[] A = { 10, 2, 5, 1, 8, 20 };
-            var result = s.solution(A); ;
+            var result = s.solution(A);
             Assert.AreEqual(1, result);
         }
 
@@ -20,7 +20,7 @@ namespace Codility.L4Sorting
         {
             SolutionTriangle s = new SolutionTriangle();
             int[] A = { 10, 50, 5, 1 };
-            var result = s.solution(A); ;
+            var result = s.solution(A);
             Assert.AreEqual(0, result);
         }
 
@@ -29,7 +29,7 @@ namespace Codility.L4Sorting
         {
             SolutionTriangle s = new SolutionTriangle();
             int[] A = { int.MaxValue, int.MaxValue, int.MaxValue};
-            var result = s.solution(A); ;
+            var result = s.solution(A);
             Assert.AreEqual(1, result);
         }
     }

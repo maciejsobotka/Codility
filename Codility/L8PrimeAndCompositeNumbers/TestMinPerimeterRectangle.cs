@@ -10,7 +10,7 @@ namespace Codility.L8PrimeAndCompositeNumbers
         public void TestMinPerimeterRectangleMethod1()
         {
             SolutionMinPerimeterRectangle s = new SolutionMinPerimeterRectangle();
-            var result = s.solution(30); ;
+            var result = s.solution(30);
             Assert.AreEqual(22, result);
         }
     }

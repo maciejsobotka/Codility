@@ -11,7 +11,7 @@ namespace Codility.L5StacksAndQueues
         {
             SolutionNesting s = new SolutionNesting();
             String S = "(()(())())";
-            var result = s.solution(S); ;
+            var result = s.solution(S);
             Assert.AreEqual(1, result);
         }
 
@@ -20,7 +20,7 @@ namespace Codility.L5StacksAndQueues
         {
             SolutionNesting s = new SolutionNesting();
             String S = "())";
-            var result = s.solution(S); ;
+            var result = s.solution(S);
             Assert.AreEqual(0, result);
         }
     }

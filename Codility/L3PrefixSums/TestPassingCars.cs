@@ -11,7 +11,7 @@ namespace Codility.L3PrefixSums
         {
             SolutionPassingCars s = new SolutionPassingCars();
             int[] A = {0, 1, 0, 1, 1};
-            var result = s.solution(A); ;
+            var result = s.solution(A);
             Assert.AreEqual(5, result);
         }
     }

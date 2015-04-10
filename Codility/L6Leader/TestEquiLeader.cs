@@ -11,7 +11,7 @@ namespace Codility.L6Leader
         {
             SolutionEquiLeader s = new SolutionEquiLeader();
             int[] A = { 4, 3, 4, 4, 4, 2 };
-            var result = s.solution(A); ;
+            var result = s.solution(A);
             Assert.AreEqual(2, result);
         }
     }

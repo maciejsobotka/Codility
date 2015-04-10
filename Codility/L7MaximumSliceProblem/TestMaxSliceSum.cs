@@ -11,7 +11,7 @@ namespace Codility.L7MaximumSliceProblem
         {
             SolutionMaxSliceSum s = new SolutionMaxSliceSum();
             int[] A = { 3, 2, -6, 4, 0 };
-            var result = s.solution(A); ;
+            var result = s.solution(A);
             Assert.AreEqual(5, result);
         }
 
@@ -20,7 +20,7 @@ namespace Codility.L7MaximumSliceProblem
         {
             SolutionMaxSliceSum s = new SolutionMaxSliceSum();
             int[] A = { -4, -3, -6 };
-            var result = s.solution(A); ;
+            var result = s.solution(A);
             Assert.AreEqual(-3, result);
         }
     }

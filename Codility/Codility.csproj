@@ -67,6 +67,7 @@
     <Compile Include="L7MaximumSliceProblem\TestMaxSliceSum.cs" />
     <Compile Include="L8PrimeAndCompositeNumbers\TestMinPerimeterRectangle.cs" />
     <Compile Include="L8PrimeAndCompositeNumbers\TestCountFactors.cs" />
+    <Compile Include="L9SieveOfEratosthenes\TestCountSemiprimes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="L1TimeComplexity\TestPermMissingElem.cs" />
     <Compile Include="L1TimeComplexity\TestTapeEquilibrium.cs" />
@@ -79,7 +80,6 @@
     <Folder Include="L14GreedyAlgorithms\" />
     <Folder Include="L15DynamicProgramming\" />
     <Folder Include="L99FutureTraning\" />
-    <Folder Include="L9SieveOfEratosthenes\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

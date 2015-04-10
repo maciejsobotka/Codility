@@ -11,7 +11,7 @@ namespace Codility.L4Sorting
         {
             SolutionMaxProductOfThree s = new SolutionMaxProductOfThree();
             int[] A = { -3, 1, 2, -2, 5, 6};
-            var result = s.solution(A); ;
+            var result = s.solution(A);
             Assert.AreEqual(60, result);
         }
     }

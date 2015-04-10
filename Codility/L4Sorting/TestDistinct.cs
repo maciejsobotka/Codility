@@ -12,7 +12,7 @@ namespace Codility.L4Sorting
         {
             SolutionDistinct s = new SolutionDistinct();
             int[] A = { 2, 1, 1, 2, 3, 1 };
-            var result = s.solution(A); ;
+            var result = s.solution(A);
             Assert.AreEqual(3, result);
         }
     }

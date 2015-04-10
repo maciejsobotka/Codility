@@ -11,7 +11,7 @@ namespace Codility.L7MaximumSliceProblem
         {
             SolutionMaxProfit s = new SolutionMaxProfit();
             int[] A = { 23171, 21011, 21123, 21366, 21013, 21367 };
-            var result = s.solution(A); ;
+            var result = s.solution(A);
             Assert.AreEqual(356, result);
         }
     }
