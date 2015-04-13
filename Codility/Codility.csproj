@@ -54,6 +54,7 @@
     <Compile Include="L13CaterpillarMethod\TestAbsDistinct.cs" />
     <Compile Include="L13CaterpillarMethod\TestCountDistinctSlices.cs" />
     <Compile Include="L14GreedyAlgorithms\TestMaxNonoverlappingSegments.cs" />
+    <Compile Include="L14GreedyAlgorithms\TestTieRopes.cs" />
     <Compile Include="L1TimeComplexity\TestFrogJmp.cs" />
     <Compile Include="L2CountingElements\TestPermCheck.cs" />
     <Compile Include="L2CountingElements\TestFrogRiverOne.cs" />
