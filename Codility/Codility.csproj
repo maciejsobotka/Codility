@@ -51,6 +51,8 @@
   </Choose>
   <ItemGroup>
     <Compile Include="L10EuclideanAlgorithm\TestChocolatesByNumbers.cs" />
+    <Compile Include="L13CaterpillarMethod\TestAbsDistinct.cs" />
+    <Compile Include="L13CaterpillarMethod\TestCountDistinctSlices.cs" />
     <Compile Include="L1TimeComplexity\TestFrogJmp.cs" />
     <Compile Include="L2CountingElements\TestPermCheck.cs" />
     <Compile Include="L2CountingElements\TestFrogRiverOne.cs" />
@@ -76,7 +78,6 @@
   <ItemGroup>
     <Folder Include="L11FibonacciNumbers\" />
     <Folder Include="L12BinarySearchAlgorithm\" />
-    <Folder Include="L13CaterpillarMethod\" />
     <Folder Include="L14GreedyAlgorithms\" />
     <Folder Include="L15DynamicProgramming\" />
     <Folder Include="L99FutureTraning\" />
