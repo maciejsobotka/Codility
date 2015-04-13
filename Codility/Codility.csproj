@@ -55,6 +55,7 @@
     <Compile Include="L13CaterpillarMethod\TestCountDistinctSlices.cs" />
     <Compile Include="L14GreedyAlgorithms\TestMaxNonoverlappingSegments.cs" />
     <Compile Include="L14GreedyAlgorithms\TestTieRopes.cs" />
+    <Compile Include="L15DynamicProgramming\TestNumberSolitaire.cs" />
     <Compile Include="L1TimeComplexity\TestFrogJmp.cs" />
     <Compile Include="L2CountingElements\TestPermCheck.cs" />
     <Compile Include="L2CountingElements\TestFrogRiverOne.cs" />
@@ -80,7 +81,6 @@
   <ItemGroup>
     <Folder Include="L11FibonacciNumbers\" />
     <Folder Include="L12BinarySearchAlgorithm\" />
-    <Folder Include="L15DynamicProgramming\" />
     <Folder Include="L99FutureTraning\" />
   </ItemGroup>
   <Choose>
