@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="L10EuclideanAlgorithm\TestChocolatesByNumbers.cs" />
     <Compile Include="L11FibonacciNumbers\TestLadder.cs" />
+    <Compile Include="L12BinarySearchAlgorithm\TestMinMaxDivision.cs" />
     <Compile Include="L13CaterpillarMethod\TestAbsDistinct.cs" />
     <Compile Include="L13CaterpillarMethod\TestCountDistinctSlices.cs" />
     <Compile Include="L14GreedyAlgorithms\TestMaxNonoverlappingSegments.cs" />
@@ -80,7 +81,6 @@
     <Compile Include="L1TimeComplexity\TestTapeEquilibrium.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="L12BinarySearchAlgorithm\" />
     <Folder Include="L99FutureTraning\" />
   </ItemGroup>
   <Choose>
